@@ -21,10 +21,10 @@ const Navbar = () => {
       <nav
         className={`${
           fix ? "bg-gray-50 opacity-95" : ""
-        } fixed z-50 flex justify-between w-full mx-auto p-7 transition-colors duration-150`}
+        } fixed z-50 flex md:justify-between justify-center w-full mx-auto p-7 transition-colors duration-150`}
       >
         <img className="w-[100px]" src={!fix ? logo : logoblack} alt="" />
-        <button className="text-white border-2 border-[#bc5149] py-2 px-7 bg-[#dc665d] text-[9px] tracking-widest">
+        <button className="hidden md:block text-white border-2 border-[#bc5149] py-2 px-7 bg-[#dc665d] text-[9px] tracking-widest">
           LOGIN
         </button>
       </nav>
