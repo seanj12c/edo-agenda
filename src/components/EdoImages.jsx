@@ -9,7 +9,7 @@ import paper from "../assets/get-paper.png";
 
 function EdoImages() {
   return (
-    <div className="max-w-[1640px] mx-auto py-[60px]">
+    <div className="w-screen mx-auto py-[60px]">
       <div className="w-[80%] mx-auto content-center text-center left-0 right-0">
         <h1 className="text-[30px] font-thin pb-2">
           Fill your days with inspiration

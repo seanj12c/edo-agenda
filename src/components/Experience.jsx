@@ -6,7 +6,7 @@ import logo from "../assets/logo_only_image.png";
 
 function Experience() {
   return (
-    <div className="w-full h-screen mx-auto max-w-[1640px] text-center px-9">
+    <div className="w-screen h-screen mx-auto max-w-[1640px] text-center px-9">
       <div className="md:w-[650px] mx-auto">
         <h1 className="text-3xl py-9">Seamless experience</h1>
         <p className="py-2 text-lg font-extralight">
@@ -18,19 +18,19 @@ function Experience() {
           quickly sent to the Edo Agenda app with a simple snap.
         </p>
 
-        <div className="flex justify-center md:gap-3 gap-2 py-[100px]">
+        <div className="justify-center gap-3 md:flex">
           <img
-            className="md:w-[190px] w-[140px] object-cover"
+            className="md:w-[190px] sm:w-[140px] w-[190px] mx-auto"
             src={web}
             alt=""
           />
           <img
-            className="md:w-[190px] w-[140px] object-cover"
+            className="md:w-[190px] sm:w-[140px] w-[190px] mx-auto"
             src={android}
             alt=""
           />
           <img
-            className="md:w-[190px] w-[140px] object-cover"
+            className="md:w-[190px] sm:w-[140px] w-[190px] mx-auto"
             src={iphone}
             alt=""
           />

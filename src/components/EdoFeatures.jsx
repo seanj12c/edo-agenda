@@ -7,7 +7,7 @@ import notes from "../assets/notes-icon.png";
 
 function EdoFeatures() {
   return (
-    <div className="max-w-[1640px] mx-auto h-full pb-[90px] text-[#333333]">
+    <div className="w-screen mx-auto h-full pb-[90px] text-[#333333]">
       <div className="text-center">
         <img className="h-10 mx-auto" src={arrow} alt="" />
         <h1 className="py-8 text-[28px] tracking-wide font-light">
