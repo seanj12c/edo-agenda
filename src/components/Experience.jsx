@@ -18,22 +18,24 @@ function Experience() {
           quickly sent to the Edo Agenda app with a simple snap.
         </p>
 
-        <div className="justify-center gap-3 md:flex">
-          <img
-            className="md:w-[190px] sm:w-[140px] w-[190px] mx-auto"
-            src={web}
-            alt=""
-          />
-          <img
-            className="md:w-[190px] sm:w-[140px] w-[190px] mx-auto"
-            src={android}
-            alt=""
-          />
-          <img
-            className="md:w-[190px] sm:w-[140px] w-[190px] mx-auto"
-            src={iphone}
-            alt=""
-          />
+        <div className="justify-center gap-3 py-3 md:flex">
+          <div>
+            <img className="md:w-[190px] w-[190px] mx-auto" src={web} alt="" />
+          </div>
+          <div>
+            <img
+              className="md:w-[190px] w-[190px] mx-auto"
+              src={android}
+              alt=""
+            />
+          </div>
+          <div>
+            <img
+              className="md:w-[190px] w-[190px] mx-auto"
+              src={iphone}
+              alt=""
+            />
+          </div>
         </div>
       </div>
 

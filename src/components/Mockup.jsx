@@ -8,21 +8,19 @@ function Mockup() {
   return (
     <div id="mock" className="w-screen mx-auto py-[130px] px-6">
       <div className="justify-center gap-3 md:flex">
-        <img
-          className="md:w-[190px] sm:w-[140px] w-[190px] mx-auto"
-          src={web}
-          alt=""
-        />
-        <img
-          className="md:w-[190px] sm:w-[140px] w-[190px] mx-auto"
-          src={android}
-          alt=""
-        />
-        <img
-          className="md:w-[190px] sm:w-[140px] w-[190px] mx-auto"
-          src={iphone}
-          alt=""
-        />
+        <div>
+          <img className="md:w-[190px] w-[190px] mx-auto" src={web} alt="" />
+        </div>
+        <div>
+          <img
+            className="md:w-[190px] w-[190px] mx-auto"
+            src={android}
+            alt=""
+          />
+        </div>
+        <div>
+          <img className="md:w-[190px] w-[190px] mx-auto" src={iphone} alt="" />
+        </div>
       </div>
 
       <div className="py-[90px]">
