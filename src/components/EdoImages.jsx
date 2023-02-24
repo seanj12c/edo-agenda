@@ -56,17 +56,21 @@ function EdoImages() {
             or if you're just enjoying your long-awaited trip, use Edo Agenda to
             write a list of things to do or simply as a journal.
           </p>
-          <div className="flex lg:justify-end lg:px-[10px] px-[50px] lg:gap-5">
-            <img
-              className="lg:h-[70px] lg:mx-0 h-[50px] mx-auto"
-              src={android}
-              alt=""
-            />
-            <img
-              className="lg:h-[70px] lg:mx-0 h-[50px] mx-auto"
-              src={iphone}
-              alt=""
-            />
+          <div className="flex lg:justify-end justify-center lg:px-[10px] mx-auto gap-5">
+            <div>
+              <img
+                className="lg:h-[70px] lg:mx-0 h-[50px] mx-auto"
+                src={android}
+                alt=""
+              />
+            </div>
+            <div>
+              <img
+                className="lg:h-[70px] lg:mx-0 h-[50px] mx-auto"
+                src={iphone}
+                alt=""
+              />
+            </div>
           </div>
         </div>
       </div>
