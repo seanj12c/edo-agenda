@@ -6,8 +6,8 @@ function Hero() {
     <div className="w-screen mx-auto text-white">
       <img className="h-[100vh] w-full object-cover" src={bg} alt="" />
       <div className="absolute left-0 right-0 top-[20%] text-center px-[50px]">
-        <h1 className="md:text-[47px] text-4xl pb-2">Design your day</h1>
-        <p className="text-[19px]">
+        <h1 className="py-6 text-4xl font-base md:text-5xl">Design your day</h1>
+        <p className="text-[19px] font-extralight">
           Edo Agenda is your personal workspace that helps you organize your
           <br /> day and free your creative side.
         </p>

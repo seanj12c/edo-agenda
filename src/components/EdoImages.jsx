@@ -11,11 +11,11 @@ function EdoImages() {
   return (
     <div className="w-screen mx-auto py-[60px]">
       <div className="w-[80%] mx-auto content-center text-center left-0 right-0">
-        <h1 className="text-[30px] font-thin pb-2">
+        <h1 className="text-[30px] font-extralight pb-2">
           Fill your days with inspiration
         </h1>
         <hr />
-        <p className="text-[25px] pt-2">from any device</p>
+        <p className="text-[25px] pt-2 font-extralight">from any device</p>
       </div>
 
       <div className="pt-[120px] lg:text-left text-center lg:flex">
@@ -23,10 +23,10 @@ function EdoImages() {
           <img className="object-cover w-full " src={webimage} alt="" />
         </div>
         <div className="py-[55px] lg:w-[50%] w-[80%] mx-auto lg:my-auto lg:px-[60px]">
-          <h1 className="lg:text-[25px] text-[21px] pb-5">
+          <h1 className="lg:text-[25px] text-[21px] pb-5 font-semibold">
             Edo Agenda<span className="text-[#dc665d]"> Web</span>
           </h1>
-          <p className="lg:text-[16px] lg:tracking-wide text-[18px] pb-[40px]">
+          <p className="lg:text-[16px] lg:tracking-wide text-[18px] pb-[40px] text-[#333333] font-light">
             In the office, at home or in a café bar, open Edo Agenda on your
             laptop and take your time to plan your day and free your creative
             soul.
@@ -48,10 +48,10 @@ function EdoImages() {
           />
         </div>
         <div className="py-[55px] lg:w-[50%] w-[80%] mx-auto lg:my-auto lg:px-[60px]">
-          <h1 className="lg:text-[25px] text-[21px] pb-5 lg:text-right">
+          <h1 className="lg:text-[25px] text-[21px] pb-5 lg:text-right font-semibold">
             Edo Agenda<span className="text-[#22AE43]"> Mobile</span>
           </h1>
-          <p className="lg:text-[16px] lg:tracking-wide text-[18px] pb-[40px]">
+          <p className="lg:text-[16px] lg:tracking-wide text-[18px] pb-[40px] text-[#333333] font-light">
             The best ideas often come on the go. If you're travelling for work
             or if you're just enjoying your long-awaited trip, use Edo Agenda to
             write a list of things to do or simply as a journal.
@@ -84,10 +84,10 @@ function EdoImages() {
           />
         </div>
         <div className="py-[55px] lg:w-[50%] w-[80%] mx-auto lg:my-auto lg:px-[60px] lg:py-0">
-          <h1 className="lg:text-[25px] text-[21px] pb-5">
+          <h1 className="lg:text-[25px] text-[21px] pb-5 font-semibold">
             Edo Agenda<span className="text-[#7E95F7]"> Paper</span>
           </h1>
-          <p className="lg:text-[16px] lg:tracking-wide text-[18px] pb-[40px]">
+          <p className="lg:text-[16px] lg:tracking-wide text-[18px] pb-[40px] text-[#333333] font-light">
             Where tradition meets technology. Your traditional everyday
             note-taking device has a very digital soul. Agenda Paper islg
             beautifully crafted notebook. By snapping pictures of pages, your

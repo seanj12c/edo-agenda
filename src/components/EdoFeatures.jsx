@@ -21,7 +21,7 @@ function EdoFeatures() {
           <h1 className="pt-[50px] pb-5 text-[15px] font-semibold">
             THE BIG PICTURE OF YOUR ACTIVITIES
           </h1>
-          <p className="font-normal">
+          <p className="font-extralight">
             The Planner will help you to get an overview on how productive
             <br />
             you’ve been and what still needs to be done.
@@ -33,7 +33,7 @@ function EdoFeatures() {
           <h1 className="pt-[50px] pb-5 text-[15px] font-semibold">
             EVERYTHING YOU NEED TO PLAN YOUR DAY
           </h1>
-          <p className="font-normal">
+          <p className="font-extralight">
             Start your day by writing the thoughts that inspire you, ideas you
             <br />
             want to remember, or simply a list of things to do.
@@ -45,7 +45,7 @@ function EdoFeatures() {
           <h1 className="pt-[50px] pb-5 text-[15px] font-semibold">
             YOUR REMINDERS AND TO-DO LISTS AT A GLANCE
           </h1>
-          <p className="font-normal">
+          <p className="font-extralight">
             Remember everything you have to do with reminders on your
             <br /> phone and see what still needs to be done at a glance with
             on-
@@ -59,7 +59,7 @@ function EdoFeatures() {
           <h1 className="pt-[50px] pb-5 text-[15px] font-semibold">
             A CLEAN ORGANIZED PLACE TO WRITE YOUR THOUGHTS
           </h1>
-          <p className="font-normal">
+          <p className="font-extralight">
             Don’t forget one single detail for your meetings and <br />
             appointments. Add reminders for your meetings next week and <br />
             attach your relevant thoughts and docs.
