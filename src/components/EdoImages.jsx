@@ -42,7 +42,7 @@ function EdoImages() {
       <div className="text-center lg:text-left lg:flex lg:flex-row-reverse">
         <div className="lg:w-[50%]">
           <img
-            className="h-[400px] w-full lg:h-[600px] lg:w-[759px] object-cover"
+            className="h-[400px] w-full lg:h-[600px] lg:w-full object-cover"
             src={mobileimage}
             alt=""
           />
